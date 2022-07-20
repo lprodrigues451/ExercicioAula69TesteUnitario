@@ -12,7 +12,7 @@ class RegisterRepositoryTest {
         // Arrange
         val user = RegisterModel(
             "Felipe",
-            "felipe.dearaujo@zup.com.br",
+            "felipe.dearaujo@gmail.com.br",
             "melhorProfessorDoMundo"
         )
         // ACT
@@ -20,7 +20,7 @@ class RegisterRepositoryTest {
 
         // Assert
         assertEquals(result.userName, "Felipe")
-        assertEquals(result.email, "felipe.dearaujo@zup.com.br")
+        assertEquals(result.email, "felipe.dearaujo@gmail.com.br")
         assertEquals(result.password, "melhorProfessorDoMundo")
     }
 }
